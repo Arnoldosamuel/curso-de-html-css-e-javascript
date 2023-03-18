@@ -1,5 +1,5 @@
 body{
-  font-family: Arial, sans-serif;
+  font-family: Arial sans-serif;
   background-color: #ccc;
   margin: 0;
 }
@@ -9,28 +9,92 @@ body{
   height: 500px;
   background-position: right center;
   background-size: cover;
+  border-top: 1px sloid transparent;
+  max-width: 1024px;
+  margin-top: 10px;
+  padding-top: 1px;
 }
 .hero-content{
   text-align: center;
   color:white ;
   margin-top: 150px;
-
 }
 
 .hero-content h1{
   text-transform: uppercase;
   font-size: 46px;
-  text-shadow: 3px 3px 2px #333;
+  text-shadow: 5px 6px 3px #333;
+}
+.hero nav ul{
+  text-align: right;
+ margin: 20px 50px 0 0;
+}
+.hero nav li{
+  display: inline-block;
+  list-style: none;
+  border: 1px solid white;
+  margin-left: 9px;
+}
+.hero nav a{
+  background: rgba(0,0,0,0.6);
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.hero nav a:hover{
+  background: rgba(0,0,0,0.5);
+
 }
 
-main{
+.main{
   width: 80%;
   margin: auto;
 }
-
+.content-header h2{
+  border-bottom: solid 2px #ccc;
+  padding: 10px;
+  background:silver;
+}
 .content-section{
-  background-color: white;
+  background-color:white;
   padding: 15px;
   margin-top: 15px;
-  
+}
+.content-article{
+  margin: 0;
+}
+#principal{
+  max-width: 1024px;
+  margin: auto;
+}
+.flow-01{
+  display: inline-block;
+  letter-spacing: 6px;
+
+}
+.p-t{
+background:#6b6c68;
+border: solid;
+text-align: center;
+padding-top: 9px;
+padding-bottom: 9px;
+margin-left: 28px;
+margin-right: 28px;
+font-family: Arial, Helvetica,;
+text-transform: uppercase;
+font-size: 17px;
+text-shadow: 9px 9px 16px;
+}
+.content-footer{
+  height: 89px;
+	color: white;
+	font-size: 17px;
+	text-align: center;
+	text-shadow: 3px 5px 7px black;
+	background: #6b6c68;
+    line-height: 80px;
 }
